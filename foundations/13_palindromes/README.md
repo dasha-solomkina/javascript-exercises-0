@@ -13,6 +13,6 @@ Some palindromes:
 - A nut for a jar of tuna.
 
 ```javascript
-palindromes('racecar') // true
-palindromes('tacos') // false
+palindromes("racecar"); // true
+palindromes("tacos"); // false
 ```

@@ -16,6 +16,7 @@ After understanding the example code, you will recreate the snippet on your own 
 
 1. Create 4 variables: `firstName`, `lastName`, `thisYear`, and `birthYear`
 1. Create a 5th variable, `greeting`, that is constructed from the previous 4 variables
+
 - It should contain a greeting that includes the person's full name and age
 
 Note: To make the tests pass, you will need to use exact values and wording (as you will see described in `joinStrings.js`). If the tests fail, look at the feedback in your terminal then check your spacing, capitalization, and punctuation.
@@ -30,7 +31,7 @@ You will edit your code to make it easier to read using the following instructio
 1. Edit the `greeting` string to use `fullName` and `age` instead of the other 4 variables. `greeting` should look something like:
 
    ```js
-   "Hello! My name is " + fullName
+   "Hello! My name is " + fullName;
    ```
 
 Run all the tests one last time to ensure that the output remains unchanged:

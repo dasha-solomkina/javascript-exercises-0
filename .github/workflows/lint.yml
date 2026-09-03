@@ -2,8 +2,8 @@ name: Linter
 on:
   pull_request:
     paths:
-      - '**.js'
-      - '!archive/**'
+      - "**.js"
+      - "!archive/**"
 
 jobs:
   lint:

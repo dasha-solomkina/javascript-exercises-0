@@ -18,18 +18,15 @@ const birthYear = 1947;
 const fullName = firstName + " " + lastName;
 const age = thisYear - birthYear;
 // At the end of the exercise, greeting may look like this:
-const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
-
-
-
-
+const greeting =
+  "Hello! My name is " + fullName + " and I am " + age + " years old.";
 
 module.exports = {
-  firstName: typeof firstName === 'undefined' ? undefined : firstName,
-  lastName: typeof lastName === 'undefined' ? undefined : lastName,
-  thisYear: typeof thisYear === 'undefined' ? undefined : thisYear,
-  birthYear: typeof birthYear === 'undefined' ? undefined : birthYear,
-  greeting: typeof greeting === 'undefined' ? undefined : greeting,
-  fullName: typeof fullName === 'undefined' ? undefined : fullName,
-  age: typeof age === 'undefined' ? undefined : age
-}
+  firstName: typeof firstName === "undefined" ? undefined : firstName,
+  lastName: typeof lastName === "undefined" ? undefined : lastName,
+  thisYear: typeof thisYear === "undefined" ? undefined : thisYear,
+  birthYear: typeof birthYear === "undefined" ? undefined : birthYear,
+  greeting: typeof greeting === "undefined" ? undefined : greeting,
+  fullName: typeof fullName === "undefined" ? undefined : fullName,
+  age: typeof age === "undefined" ? undefined : age,
+};

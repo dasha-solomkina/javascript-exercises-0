@@ -1,12 +1,12 @@
 function addNumbers() {
-	const a = 1;
-	const b = 1;
+  const a = 1;
+  const b = 1;
 
-	let result;
+  let result;
 
-	result = a + b;
+  result = a + b;
 
-	return result;
+  return result;
 }
 
 module.exports = addNumbers;

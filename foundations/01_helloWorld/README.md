@@ -12,11 +12,11 @@ This setup should be similar for all of the exercises. The plain javascript file
 Let's look at the spec file first:
 
 ```javascript
-const helloWorld = require('./helloWorld');
+const helloWorld = require("./helloWorld");
 
-describe('Hello World', function() {
-  test('says "Hello, World!"', function() {
-    expect(helloWorld()).toEqual('Hello, World!');
+describe("Hello World", function () {
+  test('says "Hello, World!"', function () {
+    expect(helloWorld()).toEqual("Hello, World!");
   });
 });
 ```
@@ -30,9 +30,9 @@ For now you do not need to worry about how to write tests, but you should try to
 so let's look at the javascript file:
 
 ```javascript
-const helloWorld = function() {
-  return ''
-}
+const helloWorld = function () {
+  return "";
+};
 
 module.exports = helloWorld;
 ```
@@ -46,9 +46,9 @@ Just to make sure, in case you're confused at this point, the test is telling yo
 This is what the final function should look like:
 
 ```javascript
-const helloWorld = function() {
-  return 'Hello, World!'
-}
+const helloWorld = function () {
+  return "Hello, World!";
+};
 
 module.exports = helloWorld;
 ```

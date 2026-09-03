@@ -1,7 +1,7 @@
-const addNumbers = require('./addNumbers-solution')
+const addNumbers = require("./addNumbers-solution");
 
-describe('addNumbers', () => {
-  test('adds the numbers together', () => {
+describe("addNumbers", () => {
+  test("adds the numbers together", () => {
     expect(addNumbers()).toEqual(2);
   });
 });

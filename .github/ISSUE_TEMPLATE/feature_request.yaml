@@ -49,7 +49,6 @@ body:
     validations:
       required: true
 
-
   - type: textarea
     id: additional-comments
     attributes:
